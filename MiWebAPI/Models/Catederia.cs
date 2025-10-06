@@ -113,6 +113,26 @@ public class Catederia
         return lista;
     }
 
+    //Traer todos los pedidos
+    public List<Pedido> ObtenerTodosLosPedidos()
+    {
+        var pedidosTotales = new List<Pedido>();
+
+        if (PedidosAsignar != null && PedidosAsignar.Any())
+            pedidosTotales.AddRange(PedidosAsignar);
+
+        if (Cadetes != null)
+        {
+            foreach (var cadete in Cadetes)
+            {
+                if (cadete.Pedidos != null && cadete.Pedidos.Any())
+                    pedidosTotales.AddRange(cadete.Pedidos);
+            }
+        }
+
+        return pedidosTotales;
+    }
+
     //Informe de cadetes
     public List<(string cadete, int entregados, int jornal)> ObtenerInformeCadetes()
     {

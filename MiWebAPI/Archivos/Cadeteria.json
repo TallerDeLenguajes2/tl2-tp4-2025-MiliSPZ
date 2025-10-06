@@ -1,0 +1,64 @@
+{
+  "nombre": "Pepe's Cadetería",
+  "telefono": "3814567890",
+  "Cadetes": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "Pedidos": [
+        {
+          "nro": 1,
+          "obs": "Entregar rápido",
+          "cliente": {
+            "nombre": "Lucía Romero",
+            "direccion": "San Martín 123",
+            "telefono": "3815000001",
+            "datosReferenciaDireccion": "Puerta verde"
+          },
+          "estado": "Entregado"
+        },
+        {
+          "nro": 2,
+          "obs": "Llamar al llegar",
+          "cliente": {
+            "nombre": "Carlos Soria",
+            "direccion": "Av. Belgrano 2500",
+            "telefono": "3815000002",
+            "datosReferenciaDireccion": "Casa blanca al fondo"
+          },
+          "estado": "Asignado"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "María López",
+      "Pedidos": [
+        {
+          "nro": 3,
+          "obs": "Dejar en portería",
+          "cliente": {
+            "nombre": "Ana Ruiz",
+            "direccion": "Córdoba 450",
+            "telefono": "3815000003",
+            "datosReferenciaDireccion": "Edificio 2, Dpto 3B"
+          },
+          "estado": "Pendiente"
+        }
+      ]
+    }
+  ],
+  "PedidosAsignar": [
+    {
+      "nro": 4,
+      "obs": "Entregar con cambio",
+      "cliente": {
+        "nombre": "Miguel Díaz",
+        "direccion": "Mitre 980",
+        "telefono": "3815000004",
+        "datosReferenciaDireccion": "Casa azul"
+      },
+      "estado": "Pendiente"
+    }
+  ]
+}
