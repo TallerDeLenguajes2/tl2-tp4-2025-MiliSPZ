@@ -1,64 +1,37 @@
 {
-  "nombre": "Pepe's Cadetería",
+  "nombre": "Mili Cadeter\u00EDa",
   "telefono": "3814567890",
   "Cadetes": [
     {
       "id": 1,
-      "nombre": "Juan Pérez",
-      "Pedidos": [
-        {
-          "nro": 1,
-          "obs": "Entregar rápido",
-          "cliente": {
-            "nombre": "Lucía Romero",
-            "direccion": "San Martín 123",
-            "telefono": "3815000001",
-            "datosReferenciaDireccion": "Puerta verde"
-          },
-          "estado": "Entregado"
-        },
-        {
-          "nro": 2,
-          "obs": "Llamar al llegar",
-          "cliente": {
-            "nombre": "Carlos Soria",
-            "direccion": "Av. Belgrano 2500",
-            "telefono": "3815000002",
-            "datosReferenciaDireccion": "Casa blanca al fondo"
-          },
-          "estado": "Asignado"
-        }
-      ]
+      "nombre": "Juan P\u00E9rez",
+      "Pedidos": []
     },
     {
       "id": 2,
-      "nombre": "María López",
-      "Pedidos": [
-        {
-          "nro": 3,
-          "obs": "Dejar en portería",
-          "cliente": {
-            "nombre": "Ana Ruiz",
-            "direccion": "Córdoba 450",
-            "telefono": "3815000003",
-            "datosReferenciaDireccion": "Edificio 2, Dpto 3B"
-          },
-          "estado": "Pendiente"
-        }
-      ]
+      "nombre": "Mar\u00EDa L\u00F3pez",
+      "Pedidos": []
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos G\u00F3mez",
+      "Pedidos": []
     }
   ],
   "PedidosAsignar": [
     {
-      "nro": 4,
-      "obs": "Entregar con cambio",
+      "nro": 1,
+      "obs": "Entregar r\u00E1pido",
       "cliente": {
-        "nombre": "Miguel Díaz",
-        "direccion": "Mitre 980",
-        "telefono": "3815000004",
-        "datosReferenciaDireccion": "Casa azul"
+        "id": null,
+        "nombre": "Mili Romero",
+        "direccion": "San Mart\u00EDn 123",
+        "telefono": "3810000000",
+        "datosReferenciaDireccion": null,
+        "ClienteUnico": null
       },
-      "estado": "Pendiente"
+      "estado": "asignado",
+      "cadetes": null
     }
   ]
 }
